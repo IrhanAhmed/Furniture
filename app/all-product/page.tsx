@@ -2,7 +2,7 @@ import Image from "next/image";
 
 
 const products = [
-  { id: 1, name: "The Dandy Chair", price: 250, image: "/chair.png", width: 305, height: 375 },
+  { id: 1, name: "The Dandy Chair", price: 250, image: "/sofa.png", width: 305, height: 375 },
   { id: 2, name: "Rustic Vase Set", price: 155, image: "/parent1.png", width: 305, height: 375 },
   { id: 3, name: "The Lucy Lamp", price: 399, image: "/parent3.png", width: 305, height: 375 },
   { id: 4, name: "The Silky Vase", price: 175, image: "/parent4.png", width: 305, height: 375 },

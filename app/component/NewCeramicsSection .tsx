@@ -4,7 +4,7 @@ const NewCeramicsSection = () => {
   const ceramics = [
     {
       id: 1,
-      image: "/100.png",
+      image: "/chair.png",
       title: "The Dandy Chair",
       price: "£250",
     },

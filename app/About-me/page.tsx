@@ -59,7 +59,7 @@ export default function AboutMe() {
           
           <div className="relative w-full max-w-sm md:max-w-md mx-auto">
             <Image
-              src="/99.png"
+              src="/88.png"
               alt="Innovation"
               width={400}
               height={400}
