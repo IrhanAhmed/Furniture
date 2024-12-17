@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BlackChair from "../../public/blackchair1.png"
+
 
 const PopularProducts = () => {
   const products = [
@@ -35,7 +35,7 @@ const PopularProducts = () => {
         <h2 className="text-4xl font-semibold text-gray-800">Our Popular Products</h2>
       </div>
 
-      <Image src={BlackChair} alt="ad" height={200} width={200} />
+      
 
 
       <div className="flex flex-wrap justify-center gap-8 px-8 items-start">
