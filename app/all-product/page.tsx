@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-// Product Array with Individual Dimensions for Each Product
+
 const products = [
   { id: 1, name: "The Dandy Chair", price: 250, image: "/chair.png", width: 305, height: 375 },
   { id: 2, name: "Rustic Vase Set", price: 155, image: "/parent1.png", width: 305, height: 375 },
@@ -16,7 +16,6 @@ const products = [
   { id: 12, name: "The Dandy Chair", price: 250, image: "/chair.png", width: 305, height: 375 },
 ];
 
-// ProductCard Component
 type ProductCardProps = {
   name: string;
   price: number;
@@ -43,7 +42,7 @@ const ProductCard = ({ name, price, image, width, height }: ProductCardProps) =>
   );
 };
 
-// Categories Component
+
 const Categories = () => {
   const categories = ["Category", "Product Type", "Price", "Brands"];
 
@@ -66,21 +65,20 @@ const Categories = () => {
   );
 };
 
-// All Products Page
 export default function AllProductsPage() {
   return (
     <div>
-      {/* All Products Title Section */}
+      
       <div className="py-8 md:py-16 bg-blue-500 text-white">
         <div className="container mx-auto max-w-screen-xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">All Products</h1>
         </div>
       </div>
 
-      {/* Categories Section */}
+     
       <Categories />
 
-      {/* Products Grid Section */}
+    
       <div className="py-8 md:py-16 bg-gray-50">
         <div className="container mx-auto max-w-screen-xl bg-white p-6 rounded-lg shadow-md">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -98,7 +96,6 @@ export default function AllProductsPage() {
         </div>
       </div>
 
-      {/* View Collection Button Section */}
       <div className="py-8 md:py-12 bg-white flex justify-center">
         <button className=" text-gray-900 px-6 py-3 rounded-md bg-gray-300 transition duration-200">
           View Collection

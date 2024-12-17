@@ -13,7 +13,7 @@ import {
 const Header = () => {
   return (
     <header className="relative flex flex-col items-center p-4 shadow-md">
-      {/* Action Icons Top */}
+
       <div className="absolute top-4 left-4">
         <button aria-label="Search">🔍</button>
       </div>
@@ -22,10 +22,10 @@ const Header = () => {
         <button aria-label="Shopping Cart">🛒</button>
       </div>
 
-      {/* Logo Section */}
+  
       <div className="text-2xl mb-4">Avion</div>
 
-      {/* Desktop Navigation Links */}
+      
       <nav className="hidden md:flex gap-11 text-center mb-4 text-gray-600">
       <Link href="/CardSection">CardSection</Link>
         <Link href="/plant-pots">Plant pots</Link>
@@ -38,26 +38,25 @@ const Header = () => {
         <Link href="/all-product">All Products</Link>
       </nav>
 
-      {/* Sheet (Modal with Hamburger Menu Integration) */}
       <Sheet>
-        {/* Responsive Hamburger Menu Trigger - Only Visible on Small Devices */}
+        
         <SheetTrigger className="block md:hidden absolute top-4 right-4 cursor-pointer">
           <div>
-            {/* Three-line Hamburger Icon */}
+      
             <div className="w-6 h-0.5 bg-gray-600 mb-1"></div>
             <div className="w-6 h-0.5 bg-gray-600 mb-1"></div>
             <div className="w-6 h-0.5 bg-gray-600"></div>
           </div>
         </SheetTrigger>
 
-        {/* Modal Content - Navigation Links */}
+  
         <SheetContent>
           <SheetHeader>
             <SheetTitle>Welcome! Avion</SheetTitle>
             <SheetDescription>Choose a category to explore</SheetDescription>
           </SheetHeader>
 
-          {/* Dynamic Navigation Links inside Modal */}
+        
           <nav className="mt-4 flex flex-col gap-4 text-center text-gray-600">
           <Link href="/CardSection">CardSection</Link>
             <Link href="/plant-pots" className="hover:text-gray-800 transition">Plant pots</Link>
@@ -69,7 +68,7 @@ const Header = () => {
             <Link href="/cutlery" className="hover:text-gray-800 transition">Cutlery</Link>
           </nav>
           
-          {/* Optional Close Button */}
+        
           <div className="mt-4 text-center">
             <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
               Close Modal

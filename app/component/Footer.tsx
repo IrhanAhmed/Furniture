@@ -5,11 +5,11 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaSkype } from "reac
 const Footer = () => {
   return (
     <footer className="bg-[rgba(42,37,75,1)] text-white py-12">
-      {/* Footer Main Section */}
+  
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-          {/* Menu Section */}
+        
           <div>
             <h3 className="text-lg font-semibold mb-3">Menu</h3>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Categories Section */}
+        
           <div>
             <h3 className="text-lg font-semibold mb-3">Categories</h3>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -35,7 +35,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Our Company Section */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-3">Our Company</h3>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter Signup Section */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-3">Join Our Mailing List</h3>
             <div className="flex">
@@ -66,11 +66,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section with Social Media Icons */}
+  
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-300 flex justify-between items-center px-6 md:px-12">
         <p>&copy; {new Date().getFullYear()} Copyright 2022 Avion LTD</p>
         
-        {/* Social Media Links */}
+        
         <div className="flex space-x-4">
           <a
             href="https://facebook.com"

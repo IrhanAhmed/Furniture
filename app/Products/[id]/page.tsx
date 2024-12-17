@@ -72,9 +72,9 @@ export default function ProductDetails() {
 
   return (
     <div className="container mx-auto py-8 px-4">
-      {/* Main Product Section */}
+
       <div className="flex flex-col md:flex-row md:items-start md:space-x-8 space-y-8 md:space-y-0">
-        {/* Product Image */}
+
         <div className="w-full md:w-1/2">
           <Image
             src={product.image}
@@ -85,12 +85,12 @@ export default function ProductDetails() {
           />
         </div>
 
-        {/* Product Information */}
+        
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl md:text-3xl font-bold mb-4">{product.title}</h1>
           <p className="text-lg md:text-xl text-gray-700 mb-4">{product.description}</p>
 
-          {/* Bullet Points */}
+    
           <ul className="text-sm text-gray-600 mb-4 space-y-1">
             {product.features?.map((feature, index) => (
               <li key={index} className="flex items-start">
@@ -99,10 +99,10 @@ export default function ProductDetails() {
             ))}
           </ul>
 
-          {/* Price */}
+          
           <p className="text-xl font-semibold mb-4">{product.price}</p>
 
-          {/* Dimensions Section */}
+
           {product.dimensions ? (
             <div className="text-sm text-gray-600 mb-6">
               <h3 className="font-semibold mb-2">Dimensions:</h3>
@@ -120,7 +120,7 @@ export default function ProductDetails() {
             <div className="text-sm text-gray-600 mb-6">No dimensions available</div>
           )}
 
-          {/* Amount Input */}
+    
           <div className="mb-6 flex items-center space-x-2">
             <h3 className="text-sm font-semibold text-gray-700 mb-0">Amount:</h3>
             <input
@@ -130,7 +130,7 @@ export default function ProductDetails() {
             />
           </div>
 
-          {/* Button */}
+        
           <div>
             <button className="bg-purple-700 text-white px-8 py-3 rounded-md hover:bg-purple-900 transition duration-200 w-full md:w-auto">
               Add to Cart
@@ -139,7 +139,7 @@ export default function ProductDetails() {
         </div>
       </div>
 
-      {/* You Might Also Like Section */}
+      
       <div className="mt-12">
         <h2 className="text-xl md:text-2xl font-bold mb-4">You Might Also Like</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -159,7 +159,7 @@ export default function ProductDetails() {
         </div>
       </div>
 
-      {/* Features Section */}
+      
       <div className="bg-white my-12 p-4 md:p-8">
         <h1 className="text-2xl md:text-3xl text-center mb-8">
           What Makes Our Brand Different
@@ -199,7 +199,7 @@ export default function ProductDetails() {
         </section>
       </div>
 
-      {/* Join the Club Section */}
+
       <div className="mt-12 text-center">
         <h1 className="text-2xl md:text-4xl mb-4">Join the club and get the benefits</h1>
         <div className="mt-4 text-sm md:text-base text-gray-600 leading-relaxed">

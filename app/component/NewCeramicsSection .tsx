@@ -30,12 +30,11 @@ const NewCeramicsSection = () => {
 
   return (
     <section className="py-8 bg-white text-left m-4 sm:m-8 lg:m-12">
-      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 px-4 sm:px-6 lg:px-12">
         {ceramics.map((item) => (
           <Link
             key={item.id}
-            href={`/Products/${item.id}`} // Links to the dynamic details page
+            href={`/Products/${item.id}`} 
             className="flex flex-col items-center text-center relative"
           >
             <img

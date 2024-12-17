@@ -13,7 +13,6 @@ export default function Home() {
       <FeaturesSection />
     <NewCeramicsSection/>
       <PopularProducts />
-
       </div>
 
    )}

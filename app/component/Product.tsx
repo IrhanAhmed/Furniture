@@ -1,4 +1,3 @@
-// ProductCard.tsx
 type ProductCardProps = {
     name: string;
     price: number;
