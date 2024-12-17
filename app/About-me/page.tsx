@@ -42,9 +42,9 @@ export default function AboutMe() {
 
           
           <div className="relative w-full max-w-xs md:max-w-md mx-auto">
-            <Image
-              src="/77.png"
-              alt="About Me"
+            <img
+              src="/yellowsofa.png"
+              alt="not aviable"
               width={400}
               height={400}
               className="object-cover rounded-lg shadow-md"
@@ -58,8 +58,8 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
           
           <div className="relative w-full max-w-sm md:max-w-md mx-auto">
-            <Image
-              src="/88.png"
+            <img
+              src="/blacksofa.png"
               alt="Innovation"
               width={400}
               height={400}

@@ -2,17 +2,17 @@ import Image from "next/image";
 
 
 const products = [
-  { id: 1, name: "The Dandy Chair", price: 250, image: "/sofa.png", width: 305, height: 375 },
-  { id: 2, name: "Rustic Vase Set", price: 155, image: "/parent1.png", width: 305, height: 375 },
-  { id: 3, name: "The Lucy Lamp", price: 399, image: "/parent3.png", width: 305, height: 375 },
-  { id: 4, name: "The Silky Vase", price: 175, image: "/parent4.png", width: 305, height: 375 },
-  { id: 5, name: "Rustic Vase Set", price: 155, image: "/parent1.png", width: 305, height: 375 },
-  { id: 6, name: "The Silky Vase", price: 175, image: "/parent4.png", width: 305, height: 375 },
-  { id: 7, name: "The Shelly Lights", price: 250, image: "/22.png", width: 305, height: 375 },
-  { id: 8, name: "Rustic vase Set", price: 250, image: "/33.png", width: 305, height: 375 },
-  { id: 9, name: "The Lucy Lamp", price: 250, image: "/44.png", width: 305, height: 375 },
-  { id: 10, name: "The Silky Vase", price: 250, image: "/55.png", width: 305, height: 375 },
-  { id: 11, name: "The Lucy Lamp", price: 250, image: "/parent3.png", width: 305, height: 375 },
+  { id: 1, name: "The Dandy Chair", price: 250, image: "/blackchairs.png", width: 305, height: 375 },
+  { id: 2, name: "Chairs in row", price: 155, image: "/chairsrow.png", width: 305, height: 375 },
+  { id: 3, name: "The Silky vase", price: 399, image: "/bottle.png", width: 305, height: 375 },
+  { id: 4, name: "The white vase", price: 175, image: "/cool.png", width: 305, height: 375 },
+  { id: 5, name: "Rustic Vase Set", price: 155, image: "/peachvase.png", width: 305, height: 375 },
+  { id: 6, name: "The Beauty Ligth", price: 175, image: "/lights.png", width: 305, height: 375 },
+  { id: 7, name: "The Shelly Lights", price: 250, image: "/cool.png", width: 305, height: 375 },
+  { id: 8, name: "The Hanging Lights", price: 250, image: "/hanginglamp.png", width: 305, height: 375 },
+  { id: 9, name: "The Black Chair", price: 250, image: "/blackchair1.png", width: 305, height: 375 },
+  { id: 10, name: "The Nice Chair", price: 250, image: "/blackchairs.png", width: 305, height: 375 },
+  { id: 11, name: "The silky Lamp", price: 250, image: "/bottle.png", width: 305, height: 375 },
   { id: 12, name: "The Dandy Chair", price: 250, image: "/chair.png", width: 305, height: 375 },
 ];
 
@@ -28,7 +28,7 @@ const ProductCard = ({ name, price, image, width, height }: ProductCardProps) =>
   return (
     <div className="product-card p-4 shadow-md rounded-md bg-white">
       <div className="w-full relative mb-2">
-        <Image
+        <img
           src={image}
           alt={name}
           width={width}

@@ -1,29 +1,30 @@
 import Image from "next/image";
+import BlackChair from "../../public/blackchair1.png"
 
 const PopularProducts = () => {
   const products = [
     {
       id: 1,
-      image: "/sofa.png",
+      image: "/greensofa.png",
       name: "The Poplar suede sofa",
       price: "£980",
-      width: 500,
+      width: 600,
       height: 375,
     },
     {
       id: 2,
-      image: "/parent2.png",
+      image: "/Chair.png",
       name: "The Dandy chair",
       price: "£250",
-      width: 250,
+      width: 350,
       height: 375,
     },
     {
       id: 3,
-      image: "/blackchair.png",
+      image: "/blackchair1.png",
       name: "The Dandy chair",
       price: "£250",
-      width: 250,
+      width: 320,
       height: 375,
     },
   ];
@@ -34,13 +35,17 @@ const PopularProducts = () => {
         <h2 className="text-4xl font-semibold text-gray-800">Our Popular Products</h2>
       </div>
 
+      <Image src={BlackChair} alt="ad" height={200} width={200} />
+
+
       <div className="flex flex-wrap justify-center gap-8 px-8 items-start">
         {products.map((product) => (
           <div key={product.id}>
             <div
               className="relative w-[product.width] h-[product.height]"
             >
-              <Image
+              
+              <img
                 src={product.image}
                 alt={`Image of ${product.name}`}
                 width={product.width}
@@ -82,12 +87,15 @@ const PopularProducts = () => {
       <div className="mt-20 border-4 border-gray-300 bg-white rounded-md shadow-md p-8">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/2 p-6">
-            <h1 className="text-3xl font-semibold mb-4">From a studio in London to a global brand with</h1>
+            <h1 className="text-3xl font-semibold mb-">From a studio in London to a global brand with</h1>
             <h1 className="text-3xl font-semibold">over 400 outlets</h1>
+            <p className="text-2xl mt-8">When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+            <button className="bg-gray-300 py-4 px-8 mt-14" 
+            >Get In Touch</button>
           </div>
           <div className="w-full md:w-1/2 flex justify-center items-center p-6">
-            <Image
-              src="/Image.png"
+            <img
+              src="/graysofa.png"
               alt="Image of a chair"
               width={500}
               height={375}

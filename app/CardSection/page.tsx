@@ -6,14 +6,14 @@ const products = [
     title: "Graystone vase",
     description: "A timeless ceramic vase with a soft grey glaze",
     price: 85,
-    image: "/Graystone vase.png",
+    image: "/Graystonevase.png",
   },
   {
     id: 2,
     title: "Basic white vase",
     description: "Beautiful and simple - a classic design",
     price: 125,
-    image: "/Basic white vase.png",
+    image: "/Basicwhitevase.png",
   },
 ];
 
@@ -44,7 +44,7 @@ const CartPage = () => {
             >
               
               <div className="flex items-center w-full md:w-1/3">
-                <Image
+                <img
                   src={product.image}
                   alt={product.title}
                   width={80}

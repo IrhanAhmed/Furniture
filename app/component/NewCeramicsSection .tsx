@@ -4,25 +4,25 @@ const NewCeramicsSection = () => {
   const ceramics = [
     {
       id: 1,
-      image: "/chair.png",
+      image: "/Chair.png",
       title: "The Dandy Chair",
       price: "£250",
     },
     {
       id: 2,
-      image: "/parent1.png",
+      image: "/peachvase.png",
       title: "Rustic Vase Set",
       price: "£155",
     },
     {
       id: 3,
-      image: "/parent4.png",
+      image: "/bottle.png",
       title: "The Silky Vase",
       price: "£125",
     },
     {
       id: 4,
-      image: "/parent3.png",
+      image: "/hanginglamp.png",
       title: "The Lucy Lamp",
       price: "£399",
     },
