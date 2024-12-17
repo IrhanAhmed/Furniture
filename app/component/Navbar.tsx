@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 import {
   Sheet,
   SheetContent,
@@ -25,7 +24,6 @@ const Header = () => {
   
       <div className="text-2xl mb-4">Avion</div>
 
-      
       <nav className="hidden md:flex gap-11 text-center mb-4 text-gray-600">
       <Link href="/CardSection">CardSection</Link>
         <Link href="/plant-pots">Plant pots</Link>
@@ -49,14 +47,12 @@ const Header = () => {
           </div>
         </SheetTrigger>
 
-  
         <SheetContent>
           <SheetHeader>
             <SheetTitle>Welcome! Avion</SheetTitle>
             <SheetDescription>Choose a category to explore</SheetDescription>
           </SheetHeader>
 
-        
           <nav className="mt-4 flex flex-col gap-4 text-center text-gray-600">
           <Link href="/CardSection">CardSection</Link>
             <Link href="/plant-pots" className="hover:text-gray-800 transition">Plant pots</Link>
@@ -66,6 +62,7 @@ const Header = () => {
             <Link href="/crockery" className="hover:text-gray-800 transition">Crockery</Link>
             <Link href="/tableware" className="hover:text-gray-800 transition">Tableware</Link>
             <Link href="/cutlery" className="hover:text-gray-800 transition">Cutlery</Link>
+            <Link href="/all-product">All Products</Link>
           </nav>
           
         
