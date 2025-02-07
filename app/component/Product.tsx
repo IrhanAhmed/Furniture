@@ -14,5 +14,19 @@ type ProductCardProps = {
     );
   };
   
-  export default ProductCard;
+//   export default ProductCard;
+
+//   import axios from "axios";
+
+// const getData = async () => {
+//   try {
+//     const response = await axios.get("https://jsonplaceholder.typicode.com/posts");
+//     console.log(response.data);
+//   } catch (error) {
+//     console.error("Error fetching data", error);
+//   }
+// };
+
+// getData();
+
   
